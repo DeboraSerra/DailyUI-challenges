@@ -1,0 +1,62 @@
+.form {
+  width: 50vw;
+  margin: 52px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  max-width: 700px;
+  min-width: 320px;
+}
+
+.input {
+  width: 90%;
+  padding: 16px;
+  font-size: 1.2rem;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--secondary-color-lighter);
+}
+
+.valid {
+  width: 90%;
+  padding: 16px;
+  font-size: 1.2rem;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  border-radius: 8px;
+  border: 2px solid green;
+  box-shadow: 0 4px 8px var(--secondary-color-lighter);
+}
+
+.invalid {
+  width: 90%;
+  padding: 16px;
+  font-size: 1.2rem;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  border-radius: 8px;
+  border: 2px solid red;
+  box-shadow: 0 4px 8px var(--secondary-color-lighter);
+}
+
+.button {
+  padding: 16px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 28px;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  cursor: pointer;
+  box-shadow: 0 4px 8px var(--secondary-color-lighter);
+}
+
+.button:hover {
+  background-color: var(--secondary-color-lighter);
+}
+
+.button:active {
+  background-color: var(--accent-color);
+}
